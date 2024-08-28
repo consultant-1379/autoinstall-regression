@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LITP2_autoinstall-regression_suite">
+  <test name="LITP2AutoInstallRegression" preserve-order="true">
+    <classes>
+      <class name="com.ericsson.nms.litp.taf.test.autoinstall_regression.cases.LITPRegressionTestRunner" />
+	  <methods>
+	    <include name="runERIClitpRegressionTests"/>
+	    <include name="parseNosetestsReports"/>
+	  </methods> 
+    </classes>
+  </test>
+</suite>
